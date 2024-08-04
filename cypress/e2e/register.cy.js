@@ -37,6 +37,6 @@ describe('Register new account on Para Bank', () => {
     cy.get("input[value='Register']")
       .click()
     cy.get('#rightPanel > p').should('contain', 'Your account was created successfully. You are now logged in.')
-})
+  })
 
 })
